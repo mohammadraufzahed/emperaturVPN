@@ -9,7 +9,7 @@ class ChooseVPN:
         print("VPN connection")
         for key, vpnConnection in enumerate(self.vpnConnections):
             print(f"{key + 1}-{vpnConnection}")
-        getOption = int(input("Enter the option: "))
+        getOption = int(input("Enter Connection code: "))
         if getOption == 1:
             self.__vpnConnection = "Openvpn"
 
